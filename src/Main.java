@@ -12,5 +12,6 @@ public class Main {
         votingSystem.getVoting(0).vote(new Person("Bob", "Brown"), new ArrayList<>(Arrays.asList("Red", "Green")));
         votingSystem.printVoters(0);
         votingSystem.printResult(0);
+        votingSystem.printVoting(0);
     }
 }
